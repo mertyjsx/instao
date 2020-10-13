@@ -19,7 +19,7 @@ app.listen(port, () => {
   
 
 
-  app.post("/follow", async (req, res) => {
+  app.get("/follow", async (req, res) => {
     console.log("burası follow");
     res.send("bakalım")
   Run()
